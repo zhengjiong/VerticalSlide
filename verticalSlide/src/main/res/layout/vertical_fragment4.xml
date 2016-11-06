@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.stone.verticalslide.DragLayout
+    android:id="@+id/draglayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.stone.verticalslide.CustScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#94fdf7"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:gravity="center"
+                android:text="top"/>
+        </LinearLayout>
+    </com.stone.verticalslide.CustScrollView>
+
+    <com.stone.verticalslide.CustScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fd5ef2"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:gravity="center"
+                android:text="top"/>
+        </LinearLayout>
+    </com.stone.verticalslide.CustScrollView>
+</com.stone.verticalslide.DragLayout>
