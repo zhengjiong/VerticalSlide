@@ -257,7 +257,7 @@
         <com.stone.verticalslide.CustomViewPager
             android:id="@+id/gridviewpager"
             android:layout_width="match_parent"
-            android:layout_height="440dp">
+            android:layout_height="520dp">
         </com.stone.verticalslide.CustomViewPager>
         <View
             android:layout_width="fill_parent"
