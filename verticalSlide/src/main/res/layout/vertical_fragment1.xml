@@ -118,11 +118,11 @@
             android:lineSpacingExtra="5dp"
             android:text="商品名称：THE FACE SHOP菲诗小铺深层清洁洁面乳170ml\n品牌：菲诗小铺\n适用肤质：油性肌肤、混合肌肤\n产地：中国\n生产日期：详见商品包装\n保质期：三年\n包装方式：无盒塑封"
             android:textColor="#888" />
-        <com.stone.verticalslide.CustomViewPager
+        <android.support.v4.view.ViewPager
             android:id="@+id/viewpager"
             android:layout_width="match_parent"
             android:layout_height="220dp">
-        </com.stone.verticalslide.CustomViewPager>
+        </android.support.v4.view.ViewPager>
         <View
             android:layout_width="fill_parent"
             android:layout_height="1px"
@@ -254,7 +254,11 @@
                 android:text="2015-01-15 10:12:50"
                 android:textColor="#888" />
         </LinearLayout>
-
+        <com.stone.verticalslide.CustomViewPager
+            android:id="@+id/gridviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="440dp">
+        </com.stone.verticalslide.CustomViewPager>
         <View
             android:layout_width="fill_parent"
             android:layout_height="1px"
